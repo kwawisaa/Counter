@@ -1,0 +1,49 @@
+#box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 310px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  border-radius: 8px;
+}     
+
+h1{
+   font-size:2em; 
+   font-family:Helvetica;
+   color:#1A237E; 
+}
+#countLbl{
+    display: block;
+    text-align:center;
+    font-size:5em;
+    color:crimson;
+    font-family:'Helvetica';
+}
+
+#buttonContainer{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#increaseBtn,
+ #decreaseBtn,#resetBtn{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size:0.8em;
+    padding:15px; 
+    margin:10px;
+    font-family:Helvetica;
+    font-weight:bold;
+    background-color:#1A237E;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition:background-color 0.25s;
+}
+ #increaseBtn:hover,#decreaseBtn:hover,#resetBtn:hover{
+    background-color:crimson;
+ }
